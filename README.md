@@ -1,8 +1,8 @@
 # Google Form Automation with Python and Selenium
 
-## BRIEF DESCRIPTION
+## Brief description
 
-This repository contains a Python script for automating the process of filling out a Google Form using data from an Excel file. The script uses the [Selenium](https://www.selenium.dev/)Selenium library to automate the web browser and the pandas library to read the Excel file.
+This repository contains a Python script for automating the process of filling out a Google Form using data from an Excel file. The script uses the [Selenium](https://www.selenium.dev/) library to automate the web browser and the pandas library to read the Excel file.
 
 ## Requirements
 
@@ -47,7 +47,11 @@ If you find a bug or would like to suggest an improvement, please open an issue 
 ### How to get css selector from google forms
 
 1. Open the Google input form in your web browser.
-2. Right-click on the input field that you want to extract the CSS selector for and select "Inspect" or "Inspect element" from the context menu. This will open the browser's developer tools.
-3. In the developer tools, locate the HTML code that corresponds to the input field. The code will be highlighted in the Elements tab of the developer tools.
+
+2. Right-click on the input field that you want to extract the CSS selector for and select "Inspect" or "Inspect element" from the context menu.
+   This will open the browser's developer tools.
+3. In the developer tools, locate the HTML code that corresponds to the input field. The code will be highlighted in the Elements tab of
+   the developer tools.
 4. Right-click on the highlighted code and select "Copy" from the context menu.
+
 5. Select "Copy selector" from the submenu. This will copy the CSS selector for the input field to your clipboard.
